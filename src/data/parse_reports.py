@@ -1,4 +1,4 @@
-import json, requests
+import json
 import re, os
 import numpy as np
 import pandas as pd
