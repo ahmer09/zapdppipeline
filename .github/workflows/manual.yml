@@ -40,7 +40,7 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: requirements.txt
-        path: /home/runner/work/zapdppipeline/**
+        path: /home/runner/work/zapdppipeline/zapdppipeline/**
     
     - name: install python packages
       uses: actions/setup-python@v5
