@@ -24,6 +24,9 @@ jobs:
   greet:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./zapdppipeline
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -48,7 +51,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: requirements.txt
-        path: /home/runner/work/zapdppipeline/zapdppipeline/**
+        path: /home/runner/work/zapdppipeline/**
     
     - name: install python packages
       uses: actions/setup-python@v5
