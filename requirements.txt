@@ -1,12 +1,3 @@
-# local package
--e .
-
-# external requirements
-click
-Sphinx
-coverage
-awscli
-flake8
-numpy
-pandas
+numpy==2.0.0
+pandas==2.2.2
 python-dotenv>=0.5.1
